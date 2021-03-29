@@ -1,0 +1,33 @@
+/*
+
+*/
+
+
+.div a {
+    display: flex;
+    align-items: center;
+}
+
+.div img {
+    width: 45px;
+    height: 45px;
+    margin: 0 10px;
+}
+
+.div a span {
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

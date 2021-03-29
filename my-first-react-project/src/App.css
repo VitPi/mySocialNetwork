@@ -1,0 +1,43 @@
+/*
+
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    color: #8c91b6;
+}
+
+
+.app-wrapper {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 70px auto; /*это две строки*/
+    grid-template-columns: 12% 74% 14%; /*это две колонки*/
+    grid-template-areas: "hed hed hed" "as main aside"; /*это размещение блоков*/
+
+}
+
+
+.app-wrapper-contend {
+    grid-area: main;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

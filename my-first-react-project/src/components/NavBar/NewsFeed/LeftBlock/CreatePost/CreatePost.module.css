@@ -1,0 +1,79 @@
+/*
+
+
+
+*/
+
+
+.block {
+    background: #1e2745;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 5px 10px 20px;
+    text-align: center;
+}
+
+
+.img {
+    width: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.block figure {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.block figure figcaption input {
+    background: #1e2745;
+    outline: none;
+    border: none;
+}
+
+
+.block ul {
+    display: flex;
+}
+
+.block ul li a figure img {
+    margin-right: 5px;
+}
+
+.block ul li a figure figcaption {
+    color: #50b5ff;
+}
+
+
+.block ul li {
+    background: #29324f;
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.block ul li div {
+    width: 40px;
+    height: 30px;
+    display: flex;
+}
+
+.block ul li div a {
+    height: 5px;
+    margin: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

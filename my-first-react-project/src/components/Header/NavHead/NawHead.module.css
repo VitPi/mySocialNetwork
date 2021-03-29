@@ -1,0 +1,15 @@
+/*
+
+*/
+
+
+.nav ul {
+    display: flex;
+    align-items: center;
+}
+
+
+.li {
+    margin: 10px;
+}
+

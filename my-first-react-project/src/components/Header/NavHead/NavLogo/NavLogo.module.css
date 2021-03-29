@@ -1,0 +1,14 @@
+/*
+*/
+
+
+.log {
+    display: flex;
+    align-items: center;
+}
+
+.log img {
+    width: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
