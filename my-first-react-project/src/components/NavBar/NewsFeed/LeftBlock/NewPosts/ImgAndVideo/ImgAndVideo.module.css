@@ -1,8 +1,46 @@
+/*
 
 
 
 
 
+*/
+
+
+.block {
+
+    display: grid;
+    /*row-gap: 10px;*/
+    /*grid-gap: 10px;*/
+    /*grid-template-columns: repeat(2, 1fr);*/
+    /*grid-template-columns: repeat(auto-fill);*/
+    /*grid-template-rows: repeat(2, .5fr);*/
+    grid-template-areas:
+            'img1 img2'
+            'img1 img3';
+
+
+}
+
+
+.img1 {
+    height: 500px;
+    grid-area: img1;
+    padding: 10px;
+
+}
+
+.img2 {
+    height: 250px;
+    padding: 10px;
+    grid-area: img2;
+}
+
+.img3 {
+    height: 250px;
+    grid-area: img3;
+    padding: 10px;
+}
 
 
 

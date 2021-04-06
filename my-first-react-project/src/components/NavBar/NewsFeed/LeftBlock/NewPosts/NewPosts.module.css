@@ -1,6 +1,22 @@
+/*
 
 
 
+*/
+
+
+.block {
+    background: #1e2745;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 5px 10px 20px;
+    text-align: center;
+}
+
+
+.block p {
+    margin: 5px;
+}
 
 
 
