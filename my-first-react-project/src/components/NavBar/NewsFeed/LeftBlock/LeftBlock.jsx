@@ -6,6 +6,7 @@
 
 import left from './LeftBlock.module.css'
 import CreatePost from "./CreatePost/CreatePost";
+import NewPosts from "./NewPosts/NewPosts";
 
 
 const LeftBlock = () => {
@@ -13,46 +14,11 @@ const LeftBlock = () => {
         <div className={left.block}>
 
             <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
-            <CreatePost/>
+
+            <NewPosts/>
+
+
+
 
 
         </div>

@@ -10,11 +10,11 @@
     display: flex;
     align-items: center;
 }
+
 .users figure figcaption p {
     margin: 5px;
     font-size: 12px;
 }
-
 
 
 .users img {
@@ -22,3 +22,19 @@
     border-radius: 50px;
     margin-right: 10px;
 }
+
+
+.users figcaption h4:hover {
+    color: #093fc4;
+}
+
+
+
+
+
+
+
+
+
+
+
