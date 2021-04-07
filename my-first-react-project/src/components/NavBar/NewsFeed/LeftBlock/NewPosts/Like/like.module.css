@@ -3,10 +3,28 @@
 
 */
 
-
-.block {
-    display: flex;
+.block{
+    padding: 10px;
 }
+
+.block figure, figcaption {
+    display: flex;
+    align-items: center;
+    /*margin: 4px;*/
+}
+
+.block img {
+    padding-left: 10px;
+
+}
+
+.block figcaption span {
+    margin: auto 10px;
+}
+
+
+
+
 
 
 
