@@ -5,10 +5,13 @@
 
 
 .users figure {
-    /*margin: 10px;*/
     padding: 10px;
     display: flex;
     align-items: center;
+}
+
+.users figcaption {
+    display: block;
 }
 
 .users figure figcaption p {
