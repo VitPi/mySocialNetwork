@@ -23,7 +23,12 @@
 }
 
 
+.img {
+    width: 90%;
+}
+
 .img1 {
+    width: 100%;
     height: 500px;
     grid-area: img1;
     padding: 10px;
@@ -31,18 +36,30 @@
 }
 
 .img2 {
+    width: 100%;
     height: 250px;
     padding: 10px;
     grid-area: img2;
 }
 
 .img3 {
+    width: 100%;
     height: 250px;
     grid-area: img3;
     padding: 10px;
 }
 
 
+.video {
+    margin: 10px;
+    padding: 20px;
+}
+
+
+.video iframe {
+    width: 90%;
+    height: 400px;
+}
 
 
 

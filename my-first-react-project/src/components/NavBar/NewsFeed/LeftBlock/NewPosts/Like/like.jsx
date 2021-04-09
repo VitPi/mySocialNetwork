@@ -14,18 +14,18 @@ let objUser = [
 ].map(u => <Users name={u.name} say={u.say}/>)
 
 
-const Like = () => {
+const Like = (props) => {
     return (
         <footer className={l.block}>
             <figure>
                 <img src={like} alt="img"/>
                 <figcaption>
                     <a href="#">
-                        <span>10</span> Likes
+                        <span>{props.like}</span> Likes
                     </a>
 
                     <a href="#">
-                        <span>20</span> Comment
+                        <span>{props.comment}</span> Comment
                     </a>
 
                 </figcaption>

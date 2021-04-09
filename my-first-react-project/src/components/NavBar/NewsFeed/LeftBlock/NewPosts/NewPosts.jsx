@@ -10,7 +10,10 @@ import ImgAndVideo from "./ImgAndVideo/ImgAndVideo";
 import Like from "./Like/like";
 
 
-const NewPosts = () => {
+const NewPosts = (props) => {
+
+    console.log(props.oneImg)
+
     return (
         <article className={news.block}>
 
@@ -20,9 +23,12 @@ const NewPosts = () => {
                 facilis fugit in iste laudantium molestiae nam natus necessitatibus nesciunt nihil odio praesentium quas
                 quia quo reiciendis rem repellendus saepe velit vero?</p>
 
-            <ImgAndVideo/>
+            <ImgAndVideo img={props.img1} img2={props.img2} img3={props.img3}
+                         video={props.video}
+                         oneImg={props.oneImg}
+            />
 
-            <Like/>
+            <Like like={props.like} comment={props.comments}/>
 
         </article>
     )
