@@ -23,6 +23,9 @@ const App = () => {
             <div className='app-wrapper'>
                 <Header/>
                 <NavBar/>
+                <Aside/>
+
+
                 <main className='app-wrapper-contend'>
                     <Route path='/newsfeed' component={NewsFeed}/>
                     <Route path='/messages' component={Massages}/>
@@ -32,7 +35,9 @@ const App = () => {
                     <Figure/>
                     <Footer/>
                 </main>
-                <Aside/>
+
+
+
             </div>
         </BrowserRouter>
     );

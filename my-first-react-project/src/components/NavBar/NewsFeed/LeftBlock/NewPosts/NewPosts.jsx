@@ -12,12 +12,11 @@ import Like from "./Like/like";
 
 const NewPosts = (props) => {
 
-    console.log(props.oneImg)
 
     return (
         <article className={news.block}>
 
-            <h3><Users name={'Veronika Garcia'} say={'Add New Post'}/></h3>
+            <h3><Users name={props.name} say={props.say} ava={props.ava}/></h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi itaque minima molestiae natus officia
                 pariatur quas unde. Architecto beatae, blanditiis cupiditate delectus deleniti distinctio eius error eum
                 facilis fugit in iste laudantium molestiae nam natus necessitatibus nesciunt nihil odio praesentium quas
