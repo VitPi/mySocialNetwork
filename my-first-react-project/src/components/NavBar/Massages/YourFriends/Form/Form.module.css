@@ -1,0 +1,112 @@
+/*
+
+
+
+*/
+
+
+.form {
+    /*width: 90%;*/
+    display: flex;
+    position: absolute;
+    padding: 10px;
+}
+
+.input {
+    width: 200px;
+    padding-left: 50px;
+    height: 45px;
+    background: #1e2745;
+    border: 2px solid #252e4b;
+    color: #8c91b6;
+    border-radius: 10px;
+    outline: none;
+
+}
+
+
+.input:focus {
+
+    border: 1px solid #50b5ff;
+
+}
+
+/*.input:focus + .form {*/
+
+/*    border: 1px solid #50b5ff;*/
+
+/*}*/
+
+/*.form:focus {*/
+/*    border: 1px solid #50b5ff;*/
+/*    border-radius: 10px;*/
+/*}*/
+
+.loup {
+    width: 20px;
+    /*margin-right: 10px;*/
+    order: -1;
+    position: relative;
+    left: 40px;
+}
+
+
+/*.form:before {*/
+
+/*    position: relative;*/
+/*    left: 70px;*/
+/*    !*content: "\ef2a";*!*/
+/*    content: "\1F50D";*/
+
+/*}*/
+
+
+/*====================================*/
+
+
+.search {
+    display: inline-flex;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    order: -1;
+}
+
+.search-field {
+    width: 300px;
+    border: 0;
+}
+
+.search-field:focus {
+    outline: none;
+}
+
+.search-field:focus + .search-icon {
+    /* стили для иконки при фокусе поля */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

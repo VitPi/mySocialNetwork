@@ -3,17 +3,15 @@
 
 */
 
-.block {
-    padding: 10px;
-}
 
-.block figure, figcaption {
+.fig {
     display: flex;
     align-items: center;
-    /*margin: 4px;*/
 }
 
 .block figure {
+    display: flex;
+    align-items: center;
     padding: 10px;
 }
 

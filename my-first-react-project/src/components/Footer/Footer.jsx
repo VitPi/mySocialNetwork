@@ -5,7 +5,6 @@
 
 
 import foo from './Footer.module.css'
-import img from '../Figure/page-load-loader.gif'
 
 const Footer = () => {
     return (

@@ -1,11 +1,25 @@
 
+/*
+
+
+
+*/
+
 
 
 
 .dialog{
     background: #1e2745;
-    height: 500px;
     margin: 20px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: .5fr 1.5fr;
+    grid-column-gap: 10px;
+
+
+
+
+
 }
 
 

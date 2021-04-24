@@ -16,7 +16,7 @@
 .block {
     grid-area: aside;
     width: 14%;
-    height: 800px;
+    height: 700px;
     background: #1e2345;
     display: flex;
     flex-direction: column;

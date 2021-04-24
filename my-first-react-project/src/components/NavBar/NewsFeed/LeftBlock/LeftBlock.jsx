@@ -8,6 +8,12 @@ import left from './LeftBlock.module.css'
 import CreatePost from "./CreatePost/CreatePost";
 import NewPosts from "./NewPosts/NewPosts";
 import ImgAndVideo from "./NewPosts/ImgAndVideo/ImgAndVideo";
+import Figure from "../../../Figure/Figure";
+
+
+//
+
+//
 
 
 const LeftBlock = () => {
@@ -150,6 +156,7 @@ const LeftBlock = () => {
 
             {objPost}
 
+            <Figure/>
 
         </div>
     )

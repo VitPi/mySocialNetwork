@@ -1,0 +1,55 @@
+/*
+
+
+
+
+*/
+
+
+.figure {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    margin-bottom: 30px;
+}
+
+
+.figure img {
+    width: 60px;
+    border-radius: 10px;
+}
+
+
+.figcaption {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.figcaption h4 {
+    /*margin: 5px;*/
+}
+
+.figcaption p {
+    /*margin: 5px;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

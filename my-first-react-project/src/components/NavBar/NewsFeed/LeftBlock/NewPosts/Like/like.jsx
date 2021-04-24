@@ -19,7 +19,7 @@ const Like = (props) => {
         <footer className={l.block}>
             <figure>
                 <img src={like} alt="img"/>
-                <figcaption>
+                <figcaption className={l.fig}>
                     <a href="#">
                         <span>{props.like}</span> Likes
                     </a>

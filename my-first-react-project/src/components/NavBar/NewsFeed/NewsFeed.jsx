@@ -18,6 +18,7 @@ const NewsFeed = () => {
         <div className={n.main}>
             <LeftBlock/>
             <RightBlock/>
+
         </div>
     )
 }
