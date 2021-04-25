@@ -14,7 +14,11 @@ const YourFriends = () => {
 
     return (
         <div className={s.block}>
+
+
             <MyAva/>
+
+
             <Form/>
 
 
