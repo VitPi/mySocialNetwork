@@ -17,7 +17,6 @@ const Form = () => {
 
             <img src={loup} alt="" className={s.loup}/>
 
-
         </form>
 
     );
