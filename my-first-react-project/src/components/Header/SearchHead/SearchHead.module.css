@@ -1,4 +1,10 @@
-/**/
+/*
+
+
+
+
+
+*/
 
 
 .form input {
@@ -11,20 +17,16 @@
     background: #29324f;
 }
 
-.form a {
+.form img {
     position: relative;
     right: 30px;
     top: 2px;
-
 }
 
-.form a::before {
-    content: "\1F50D";
-    font-size: 15px;
+.img {
+    width: 15px;
+    height: 15px;
 }
-
-
-
 
 
 

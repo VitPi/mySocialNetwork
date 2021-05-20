@@ -8,9 +8,8 @@ import s from './MyAva.module.css'
 
 
 const MyAva = () => {
-    let img = 'img/myImg.jpg'
 
-
+    let img = 'img/myImg.jpg';
 
     return (
             <figure className={s.figure}>

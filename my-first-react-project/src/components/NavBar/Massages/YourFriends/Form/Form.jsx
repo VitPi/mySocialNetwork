@@ -16,7 +16,7 @@ const Form = () => {
 
             <input type="type" placeholder={'Search'} className={s.input}/>
 
-            <img src={loup} alt="" className={s.loup}/>
+            <img src={loup} alt="img" className={s.loup}/>
 
         </form>
 

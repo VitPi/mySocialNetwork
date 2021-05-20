@@ -1,11 +1,28 @@
+/*
 
 
 
+*/
 
 
 
+.block {
+    padding: 15px;
+    text-align: center;
+    /*background-image: url("./public/img/100.jpg");*/
+
+    /*background-image: url("img/100.jpg")*/
+
+    /*background: url("public/img/100.jpg") no-repeat;*/
+
+    /*background-size: 30px; !** moved this property down *!*/
+    /*float: left;*/
+    /*height: 500px;*/
+    /*width: 300px;*/
 
 
+
+}
 
 
 
