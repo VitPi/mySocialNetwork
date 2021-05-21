@@ -9,7 +9,8 @@ import use from './Users.module.css'
 
 const Users = (props) => {
     return (
-        <a href="#" className={use.users}>
+        <div className={use.users}>
+
             <figure>
                 <img src={props.ava} alt="img"/>
                 <figcaption>
@@ -17,7 +18,8 @@ const Users = (props) => {
                     <p>{props.say}</p>
                 </figcaption>
             </figure>
-        </a>
+
+        </div>
     )
 }
 

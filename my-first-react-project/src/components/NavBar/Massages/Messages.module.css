@@ -8,12 +8,8 @@
 .dialog {
     background: #1e2745;
     margin: 20px;
-    /*padding: 15px;*/
     display: grid;
-    grid-template-columns: 20% 80%;
-    /*grid-column-gap: 10px;*/
-
-
+    grid-template-columns: 25% 75%;
 }
 
 

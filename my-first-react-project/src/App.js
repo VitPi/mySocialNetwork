@@ -39,21 +39,6 @@ const App = () => {
                 {/*<Footer/>*/}
 
 
-                {/*<div><h1>bla bla </h1>*/}
-                {/*    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab aliquid dicta dolore dolorem et id*/}
-                {/*        maxime nam nemo nostrum quae, qui sequi soluta ullam vel? Accusamus aut esse eum fuga molestias,*/}
-                {/*        odio possimus voluptatem? Aliquid atque commodi cupiditate deserunt dolorum ducimus, facilis*/}
-                {/*        ipsa ipsam, iure magni officiis quibusdam quos recusandae soluta vero! Accusamus aspernatur*/}
-                {/*        blanditiis corporis culpa eius, eligendi enim est facere fugiat ipsam iste laboriosam magnam*/}
-                {/*        maiores nihil omnis optio provident quia quidem quos sapiente sit tenetur, veniam vero!*/}
-                {/*        Consectetur corporis est harum id inventore necessitatibus, nisi officia possimus quaerat*/}
-                {/*        quisquam similique unde. Ad atque dolores ducimus et laudantium sint voluptatibus. Amet iste*/}
-                {/*        magni perferendis quasi saepe! Ad delectus, doloribus enim id incidunt nostrum, odit officiis*/}
-                {/*        porro recusandae sint veritatis voluptatibus? Architecto, et eum excepturi harum iure nihil*/}
-                {/*        vitae? Culpa ea error ex exercitationem fugit, illo laudantium magni maiores molestias odio*/}
-                {/*        officia officiis reiciendis sapiente veniam veritatis voluptatem?</p>*/}
-                {/*</div>*/}
-
 
             </div>
         </BrowserRouter>

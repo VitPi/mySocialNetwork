@@ -5,6 +5,10 @@
 
 
 
+.users{
+    cursor: pointer;
+}
+
 
 .users figure {
     padding: 10px;
