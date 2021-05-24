@@ -5,13 +5,17 @@
 
 
 import s from './Dialog.module.css'
+import {Route} from "react-router-dom";
+import Chat from "./Chat/Chat";
 
-const Dialog = () => {
+
+
+
+const Dialog = (props) => {
     return (
         <div className={s.block}>
 
-
-            <p>safasfasf</p>
+            <Route path='/messages/1' component={Chat}/>
 
 
         </div>

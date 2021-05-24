@@ -11,8 +11,7 @@ import Setting from "./components/NavBar/Setting/Setting";
 import Profile from "./components/NavBar/Profile/Profile";
 import Aside from "./components/Aside/Aside";
 import NewsFeed from "./components/NavBar/NewsFeed/NewsFeed";
-import Footer from "./components/Footer/Footer";
-import Figure from "./components/Figure/Figure";
+
 
 // =========================================================
 
@@ -25,21 +24,14 @@ const App = () => {
                 <NavBar/>
                 <Aside/>
 
-
                 <main className='app-wrapper-contend'>
                     <Route path='/newsfeed' component={NewsFeed}/>
                     <Route path='/messages' component={Massages}/>
                     <Route path='/profile' component={Profile}/>
                     <Route path='/friends' component={Friends}/>
                     <Route path='/setting' component={Setting}/>
-                    {/*<Figure/>*/}
-                    {/*<Footer/>*/}
+
                 </main>
-                {/*<Figure/>*/}
-                {/*<Footer/>*/}
-
-
-
             </div>
         </BrowserRouter>
     );
