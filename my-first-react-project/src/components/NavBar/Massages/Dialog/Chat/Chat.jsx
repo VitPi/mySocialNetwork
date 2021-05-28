@@ -8,12 +8,12 @@
 import c from './Chat.module.css'
 
 
-const Chat = () => {
+const Chat = (props) => {
     return (
         <div className={c.block}>
 
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, sapiente?</p>
+            <p>{props.chat}</p>
 
 
         </div>

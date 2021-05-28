@@ -5,18 +5,26 @@
 */
 
 
-
 .block {
     padding: 15px;
     background: url("100.jpg") no-repeat;
     height: 600px;
+    position: relative;
 
 }
 
 
+.circle {
+    width: 20em;
+    height: 20em;
+    background: url('a.svg') no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
-
-
+}
 
 
 
