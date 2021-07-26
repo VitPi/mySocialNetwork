@@ -12,9 +12,6 @@ import Chat from "./Chat/Chat";
 const Dialog = (props) => {
 
 
-    let a = <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, reprehenderit.</p>;
-
-
     return (
         <div className={styles.block}>
 

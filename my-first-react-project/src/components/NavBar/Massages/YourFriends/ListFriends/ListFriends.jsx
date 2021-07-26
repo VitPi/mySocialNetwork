@@ -4,12 +4,12 @@
 //
 
 
-import lf from './ListFriends.module.css';
+import s from './ListFriends.module.css';
 import Users from "../../../../Aside/Users/Users";
 import {NavLink} from "react-router-dom";
 
 
-const ListFriends = () => {
+const ListFriends = (props) => {
 
 
     let friend = [
@@ -32,7 +32,7 @@ const ListFriends = () => {
 
 
     return (
-        <section className={lf.block}>
+        <section className={s.block}>
 
             <h3>Public Channels</h3>
 
@@ -47,7 +47,6 @@ const ListFriends = () => {
 
 
 export default ListFriends;
-
 
 
 
