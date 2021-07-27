@@ -60,9 +60,9 @@ const LeftBlock = () => {
                 say: '5 days ago',
                 ava: 'img/10.jpg',
                 oneImg: '',
-                img1: 'https://iqonic.design/themes/socialv/html-dark/images/page-img/p2.jpg',
-                img2: 'https://iqonic.design/themes/socialv/html-dark/images/page-img/p1.jpg',
-                img3: 'https://iqonic.design/themes/socialv/html-dark/images/page-img/p3.jpg',
+                img1: 'https://www.legnaia.it/image/catalog/olivo%20monumentale%202.jpg',
+                img2: 'https://www.sticky.digital/wp-content/uploads/2013/11/img-6.jpg',
+                img3: 'https://investuttarakhand.com/swcs/themes/utrakhand/assets/img/demo/7.jpg',
                 video: '',
                 like: 30,
                 comments: 200
