@@ -4,7 +4,7 @@
 //
 
 
-import n from './NewsFeed.module.css'
+import n from './News.module.css'
 
 import LeftBlock from "./LeftBlock/LeftBlock";
 import RightBlock from "./RightBlock/RightBlock";
@@ -13,7 +13,7 @@ import RightBlock from "./RightBlock/RightBlock";
 //
 
 
-const NewsFeed = () => {
+const News = () => {
     return (
         <div className={n.main}>
             <LeftBlock/>
@@ -24,7 +24,7 @@ const NewsFeed = () => {
 }
 
 
-export default NewsFeed
+export default News
 
 
 

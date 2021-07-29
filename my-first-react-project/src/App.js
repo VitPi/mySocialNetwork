@@ -10,7 +10,7 @@ import Friends from "./components/NavBar/Friends/Friends";
 import Setting from "./components/NavBar/Setting/Setting";
 import Profile from "./components/NavBar/Profile/Profile";
 import Aside from "./components/Aside/Aside";
-import NewsFeed from "./components/NavBar/NewsFeed/NewsFeed";
+import News from "./components/NavBar/NewsFeed/News";
 
 
 // =========================================================
@@ -25,11 +25,13 @@ const App = () => {
                 <Aside/>
 
                 <main className='app-wrapper-contend'>
-                    <Route path='/newsfeed' component={NewsFeed}/>
+
+                    <Route path='/news' component={News}/>
                     <Route path='/messages' component={Massages}/>
                     <Route path='/profile' component={Profile}/>
                     <Route path='/friends' component={Friends}/>
                     <Route path='/setting' component={Setting}/>
+
 
                 </main>
             </div>

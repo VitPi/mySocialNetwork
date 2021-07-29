@@ -1,13 +1,9 @@
-
-
-
 import set from './Setting.module.css'
+import {NavLink, Route} from "react-router-dom";
 
 
-
-
-const Setting = ()=>{
-    return(
+const Setting = () => {
+    return (
         <div>
             <p>Setting</p>
         </div>

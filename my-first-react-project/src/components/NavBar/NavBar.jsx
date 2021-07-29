@@ -13,7 +13,7 @@ const NavBar = () => {
         <nav className={s.nav}>
             <ul className={s.bla}>
                 <li>
-                    <NavLink to="/newsfeed" activeClassName={s.colorLink}>News Feed</NavLink>
+                    <NavLink to="/news" activeClassName={s.colorLink}>News</NavLink>
                 </li>
                 <li>
                     <NavLink to="/messages" activeClassName={s.colorLink}>Messages</NavLink>
