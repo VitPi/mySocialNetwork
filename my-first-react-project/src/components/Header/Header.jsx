@@ -2,7 +2,7 @@
 //
 
 
-import s from './Header.module.css';
+import styles from './Header.module.css';
 import Logo from "./Logo/Logo";
 import SearchHead from "./SearchHead/SearchHead";
 import NawHead from "./NavHead/NawHead";
@@ -10,7 +10,7 @@ import NawHead from "./NavHead/NawHead";
 
 const Header = () => {
     return (
-        <header className={s.header}>
+        <header className={styles.header}>
             <Logo/>
             <SearchHead/>
             <NawHead/>

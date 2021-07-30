@@ -1,11 +1,11 @@
 
 //
 
-import naw from './NavItem.module.css'
+import styles from './NavItem.module.css'
 
 const NavItem =(props)=>{
     return(
-        <a href="#" className={naw.a}>
+        <a href="#" className={styles.a}>
             {props.smile}
         </a>
     )

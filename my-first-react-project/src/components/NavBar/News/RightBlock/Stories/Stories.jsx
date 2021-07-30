@@ -4,7 +4,7 @@
 //
 
 
-import sto from './Stories.module.css'
+import styles from './Stories.module.css'
 import Users from "../../../../Aside/Users/Users";
 
 
@@ -23,7 +23,7 @@ const Stories = () => {
 
 
     return (
-        <section className={sto.block}>
+        <section className={styles.block}>
             <h4>Stories</h4>
             <hr/>
 

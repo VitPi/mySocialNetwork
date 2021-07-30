@@ -6,11 +6,11 @@ import Header from "./components/Header/Header";
 import NavBar from "./components/NavBar/NavBar";
 import Massages from "./components/NavBar/Massages/Massages";
 import {BrowserRouter, Route} from "react-router-dom";
-import Friends from "./components/NavBar/Friends/Friends";
+import Friends from "./components/NavBar/FriendsList/Friends";
 import Setting from "./components/NavBar/Setting/Setting";
 import Profile from "./components/NavBar/Profile/Profile";
 import Aside from "./components/Aside/Aside";
-import News from "./components/NavBar/NewsFeed/News";
+import News from "./components/NavBar/News/News";
 
 
 // =========================================================
