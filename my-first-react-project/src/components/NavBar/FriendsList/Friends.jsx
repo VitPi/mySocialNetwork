@@ -1,17 +1,23 @@
+//
 
 
+//
 
-import fri from './Friends.module.css'
+
+import style from './Friends.module.css'
+import ImgHeaderFriend from "./ImgHeadet/ImgHeaderFriend";
 
 
-const Friends = ()=>{
-    return(
-        <div className={fri}>
-            <p>Friends</p>
-        </div>
+const Friends = () => {
+    return (
+        <article className={style.block}>
+
+            <ImgHeaderFriend massage={'Friend Lists'}/>
+
+
+        </article>
     )
 }
-
 
 
 export default Friends

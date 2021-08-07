@@ -28,7 +28,7 @@ const ListFriends = (props) => {
         {name: 'Nikolas Evans', say: 'Online', ava: 'img/5.jpg', id: 13},
         {name: 'Hank Smith', say: 'Online', ava: 'img/3.jpg', id: 14},
 
-    ].map(f => <NavLink to={'/messages/' + f.id}><Users name={f.name} say={f.say} ava={f.ava}/></NavLink>);
+    ].map(f => <NavLink to={`${/messages/ + f.id}`}><Users name={f.name} say={f.say} ava={f.ava}/></NavLink>);
 
 
     return (
@@ -43,7 +43,6 @@ const ListFriends = (props) => {
         </section>
     );
 };
-
 
 
 export default ListFriends;
