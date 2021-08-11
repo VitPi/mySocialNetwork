@@ -14,8 +14,8 @@ const Chat = (props) => {
 
     return (
         <div className={style.dialog}>
-            <YourFriends/>
-            <Dialog messages={props.messages}/>
+            <YourFriends chatPage={props.chatPage}/>
+            <Dialog message={props.chatPage}/>
         </div>
     )
 }

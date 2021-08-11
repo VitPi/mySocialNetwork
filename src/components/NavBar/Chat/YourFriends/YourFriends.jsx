@@ -10,14 +10,17 @@ import Form from "./Form/Form";
 import ListFriends from "./ListFriends/ListFriends";
 
 
-const YourFriends = () => {
+const YourFriends = (props) => {
+
+
+    // debugger
 
 
     return (
         <div className={s.block}>
             <MyAva/>
             <Form/>
-            <ListFriends/>
+            <ListFriends chatFriends={props.chatPage.friendsList }/>
 
         </div>
     );

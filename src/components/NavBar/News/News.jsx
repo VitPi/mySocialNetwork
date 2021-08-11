@@ -13,11 +13,15 @@ import RightBlock from "./RightBlock/RightBlock";
 //
 
 
-const News = () => {
+const News = (props) => {
+
+// debugger
+
+
     return (
         <div className={n.main}>
-            <LeftBlock/>
-            <RightBlock/>
+            <LeftBlock posts={props.newsPage.leftBlockPAge}/>
+            <RightBlock friend={props.newsPage.storiesBlock}/>
 
         </div>
     )
