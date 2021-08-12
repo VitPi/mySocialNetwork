@@ -1,7 +1,3 @@
-
-
-
-
 /*
 
 
@@ -9,9 +5,28 @@
 */
 
 
-.block{
+.block {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
 
 
+.block div {
+
+    overflow: auto;
+    height: 84%;
+
+
+}
+
+
+.block header, footer {
+
+    height: 16%;
+    background-color: #1e2745;
 
 
 }

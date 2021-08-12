@@ -4,6 +4,9 @@
 //
 
 
+// let a = 'img/1.jpg'
+
+
 let video = <iframe src="https://www.youtube.com/embed/McSTvIqDuso"
                     title="YouTube video player" frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -32,6 +35,7 @@ let state = {
             {name: 'Pablo Roberts', say: 'Online', ava: 'img/3.jpg'},
             {name: 'Paul King', say: 'Online', ava: 'img/2.jpg'},
             {name: 'Yisrael Williams', say: 'Online', ava: 'img/1.jpg'},
+            // {name: 'Yisrael Williams', say: 'Online', ava: a},
             {name: 'Oscar Long', say: 'Online', ava: 'img/4.jpg'},
             {name: 'Franco Smith', say: 'Online', ava: 'img/5.jpg'},
             {name: 'Tripp Simmons', say: 'Online', ava: 'img/6.jpg'},

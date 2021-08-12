@@ -6,11 +6,10 @@
 
 import styles from './MyAva.module.css'
 import {NavLink} from "react-router-dom";
-
+import img from './no1.jpg'
 
 const MyAva = () => {
 
-    let img = 'img/myImg.jpg';
 
     return (
         <NavLink to={'/messages'}>

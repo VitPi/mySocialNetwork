@@ -3,20 +3,19 @@
 
 //
 
-import s from './Form.module.css'
+import styles from './Form.module.css'
+import img from './Loup.svg'
 
 
 const Form = () => {
 
-    let loup = 'img/Loup.svg'
-
     return (
 
-        <form className={s.form}>
+        <form className={styles.form}>
 
-            <input type="type" placeholder={'Search'} className={s.input}/>
+            <input type="type" placeholder={'Search'} className={styles.input}/>
 
-            <img src={loup} alt="img" className={s.loup}/>
+            <img src={img} alt="img" className={styles.loup}/>
 
         </form>
 

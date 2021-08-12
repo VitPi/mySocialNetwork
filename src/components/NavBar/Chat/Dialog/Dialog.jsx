@@ -11,21 +11,16 @@ import Message from "./Message/Message";
 
 const Dialog = (props) => {
 
-    let mess = props.message.generatingMessagesInCat.map(i => <Route path={`${/messages/ + i.id}`}
-                                                                     render={() => <Message mes={i.message}/>}/>);
+    let compMessage = props.message.generatingMessagesInCat.map(i => <Route path={`${/messages/ + i.id}`}
+                                                                            render={() => <Message/>}/>);
 
 
     return (
         <div className={styles.block}>
-            <Route exact path='/messages' render={() =>
-                <div className={styles.circle}>
+            <Route exact path='/messages' render={() => <div className={styles.circle}>
+            </div>}/>
 
-                </div>
-            }/>
-
-            {mess}
-
-            {/*<Message messages={props.message.generatingMessagesInCat}/>*/}
+            {compMessage}
 
 
         </div>
