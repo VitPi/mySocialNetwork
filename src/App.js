@@ -11,6 +11,8 @@ import Setting from "./components/NavBar/Setting/Setting";
 import Profile from "./components/NavBar/Profile/Profile";
 import Aside from "./components/Aside/Aside";
 import News from "./components/NavBar/News/News";
+import React from './iconsfont/css/all.css'
+
 
 
 // =========================================================
@@ -18,7 +20,7 @@ import News from "./components/NavBar/News/News";
 
 const App = (props) => {
 
-
+// console.log(ic)
 // debugger
 
     return (
@@ -61,13 +63,6 @@ const App = (props) => {
 
 
 export default App
-
-
-
-
-
-
-
 
 
 
