@@ -5,13 +5,8 @@
 */
 
 
-.figure {
+.fut {
     text-align: center;
+    margin: 30px 0 30px 0;
+    padding: 10px;
 }
-
-
-.figure img {
-    width: 60px;
-    height: 70px;
-}
-

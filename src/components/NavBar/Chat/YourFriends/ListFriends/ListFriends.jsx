@@ -9,12 +9,15 @@ import Users from "../../../../Aside/Users/Users";
 import {NavLink} from "react-router-dom";
 
 
+let friend
+
+
 const ListFriends = (props) => {
 
 // debugger
 
-let friend = props.chatFriends.map(f => <NavLink to={`${/messages/ + f.id}`}><Users name={f.name} say={f.say} ava={f.ava}/></NavLink>);
-
+    friend = props.chatFriends.map(f => <NavLink to={`${/messages/ + f.id}`}><Users name={f.name} say={f.say}
+                                                                                    ava={f.ava}/></NavLink>);
 
 
 

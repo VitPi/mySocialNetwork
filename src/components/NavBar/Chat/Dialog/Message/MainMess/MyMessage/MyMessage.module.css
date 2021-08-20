@@ -1,0 +1,24 @@
+/*
+
+
+
+*/
+
+
+.figure {
+    margin: 20px 0 20px 0;
+    display: flex;
+
+}
+
+.figure figcaption {
+    background-color: #165177;
+    color: #e7cfcf;
+    border-radius: 20px;
+    padding: 20px;
+
+
+}
+
+
+

@@ -1,31 +1,44 @@
-/**/
+/*
 
 
-.nav{
+*/
+
+
+.nav {
     width: 12%;
+    height: 300px;
     position: fixed;
-    left: 0;
     top: 70px;
+
 }
 
 
-.bla {
-    text-align: center;
-    overflow: auto;
+.ul {
+    height: 100%;
     background: #1e2345;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
 }
 
-.bla li {
-    margin: 20px;
-    padding: 5px;
+.ul li {
+    margin-left: 30px;
+    border-radius: 20px;
+
+}
+
+.ul li i {
+    margin-right: 20px;
 }
 
 
-.colorLink {
+.colorLink i {
     color: #50b5ff;
-    background: #29324f;
-    padding: 15px;
-    border-radius: 30px;
+}
+
+span:hover {
+    color: #50b5ff;
 }
 
 

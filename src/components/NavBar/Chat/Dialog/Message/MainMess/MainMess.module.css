@@ -1,4 +1,3 @@
-
 /*
 
 
@@ -6,18 +5,11 @@
 */
 
 
-
-
 .main {
-
+    height: 86%;
     overflow: auto;
-    height: 84%;
-
-
+    padding: 30px;
 }
-
-
-
 
 
 

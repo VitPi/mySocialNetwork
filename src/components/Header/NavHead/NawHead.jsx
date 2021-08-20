@@ -2,31 +2,32 @@
 
 
 import styles from './NawHead.module.css'
-import NavItem from "./NavItem/NavItem";
 import NavLogo from "./NavLogo/NavLogo";
 
 const NawHead = (props) => {
     return (
         <nav className={styles.nav}>
+
+
             <ul>
+                <NavLogo/>
+
                 <li className={styles.li}>
-                    <NavLogo/>
+                    <a href="#"> <i className="fas fa-home fa-15x fa-inverse"> </i></a>
+                </li>
+                <li className={styles.li}>
+                    <a href="#"> <i className="fas fa-users fa-15x fa-inverse "> </i></a>
                 </li>
 
                 <li className={styles.li}>
-                    <NavItem smile='&#129320;'/>
+                    <a href="#"><i className="far fa-bell fa-15x fa-inverse "> </i></a>
                 </li>
 
                 <li className={styles.li}>
-                    <NavItem smile='&#127917;'/>
+                    <a href="#"><i className="far fa-envelope fa-15x fa-inverse "> </i> </a>
                 </li>
-
                 <li className={styles.li}>
-                    <NavItem smile='&#128276;'/>
-                </li>
-
-                <li className={styles.li}>
-                    <NavItem smile='&#128682;'/>
+                    <a href="#"> <i className="fas fa-angle-down fa-15x fa-inverse "> </i></a>
                 </li>
             </ul>
         </nav>

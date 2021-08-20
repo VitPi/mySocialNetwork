@@ -1,0 +1,31 @@
+/*
+
+
+*/
+
+
+.head {
+    border-radius: 5px;
+    height: 370px;
+    background: url("profile-bg3.jpg") no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.head h2 {
+    width: 200px;
+    height: 80px;
+    color: #8c91b6;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+

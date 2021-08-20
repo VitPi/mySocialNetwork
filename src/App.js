@@ -6,7 +6,7 @@ import Header from "./components/Header/Header";
 import NavBar from "./components/NavBar/NavBar";
 import Chat from "./components/NavBar/Chat/Chat";
 import {Route} from "react-router-dom";
-import Friends from "./components/NavBar/FriendsList/Friends";
+import Friends from "./components/NavBar/Friends/Friends";
 import Setting from "./components/NavBar/Setting/Setting";
 import Profile from "./components/NavBar/Profile/Profile";
 import Aside from "./components/Aside/Aside";
@@ -20,7 +20,7 @@ import React from './iconsfont/css/all.css'
 
 const App = (props) => {
 
-// console.log(ic)
+console.log(props)
 // debugger
 
     return (
@@ -48,7 +48,7 @@ const App = (props) => {
 
 
                 <Route path='/friends' render={() =>
-                    <Friends/>
+                    <Friends />
                 }/>
 
 

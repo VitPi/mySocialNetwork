@@ -18,7 +18,6 @@
 }
 
 
-
 .fa-lg {
     font-size: 1.33333em;
     line-height: 0.75em;
@@ -35,6 +34,10 @@
 
 .fa-1x {
     font-size: 1em;
+}
+
+.fa-15x {
+    font-size: 1.5em;
 }
 
 .fa-2x {
@@ -230,6 +233,11 @@
 }
 
 .fa-inverse {
+    color: #2479bd;
+}
+
+
+.fa-inverse1 {
     color: #50b5ff;
 }
 
@@ -6096,7 +6104,7 @@ readers do not read off random characters that represent icons */
     src: url("../webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.woff") format("woff"), url("../webfonts/fa-brands-400.ttf") format("truetype"), url("../webfonts/fa-brands-400.svg#fontawesome") format("svg");
 }
 
-.fab {
+.fab::before {
     font-family: 'Font Awesome 5 Brands', sans-serif;
     font-weight: 400;
 }
@@ -6110,7 +6118,7 @@ readers do not read off random characters that represent icons */
     src: url("../webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.woff") format("woff"), url("../webfonts/fa-regular-400.ttf") format("truetype"), url("../webfonts/fa-regular-400.svg#fontawesome") format("svg");
 }
 
-.far {
+.far::before {
     font-family: 'Font Awesome 5 Free', sans-serif;
     font-weight: 400;
 }
@@ -6125,10 +6133,12 @@ readers do not read off random characters that represent icons */
 }
 
 .fa,
-.fas {
+.fas::before {
     font-family: 'Font Awesome 5 Free', sans-serif;
     font-weight: 900;
 }
+
+
 
 
 

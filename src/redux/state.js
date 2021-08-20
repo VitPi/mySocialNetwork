@@ -35,7 +35,6 @@ let state = {
             {name: 'Pablo Roberts', say: 'Online', ava: 'img/3.jpg'},
             {name: 'Paul King', say: 'Online', ava: 'img/2.jpg'},
             {name: 'Yisrael Williams', say: 'Online', ava: 'img/1.jpg'},
-            // {name: 'Yisrael Williams', say: 'Online', ava: a},
             {name: 'Oscar Long', say: 'Online', ava: 'img/4.jpg'},
             {name: 'Franco Smith', say: 'Online', ava: 'img/5.jpg'},
             {name: 'Tripp Simmons', say: 'Online', ava: 'img/6.jpg'},
@@ -296,12 +295,18 @@ let state = {
                 {name: 'Paul King', say: '1 day ago', ava: 'img/2.jpg'},
                 {name: 'Yisrael Williams', say: '5 hour ago', ava: 'img/1.jpg'},
                 {name: 'Oscar Long', say: '2 hour ago', ava: 'img/4.jpg'},
-                {name: 'Franco Smith', say: '2 days ago', ava: 'img/5.jpg'},
+                {name: 'Franco Smith', say: '2 days ago', ava: 'img/5.jpg\\ '},
                 {name: 'Tripp Simmons', say: '6 days ago', ava: 'img/6.jpg'},
                 {name: 'Tyrone Barnes', say: '20 hour ago', ava: 'img/7.jpg'},
                 {name: 'Daxton Ward', say: '12 hour ago', ava: 'img/8.jpg'},
             ],
         },
+
+
+        friendsPage: [
+            {id: 1, img: ''},
+        ],
+
 
     },
 

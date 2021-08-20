@@ -1,10 +1,10 @@
-/**/
+/*
 
-*{
+*/
+
+* {
     box-sizing: border-box;
-
 }
-
 
 body {
     margin: 0;
@@ -13,7 +13,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
     background: #182039;
     font-size: 14px;
-
 }
 
 hr {

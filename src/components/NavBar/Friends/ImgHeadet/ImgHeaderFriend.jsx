@@ -6,15 +6,10 @@
 import style from './ImgHeaderFriend.module.css'
 
 
-
 const ImgHeaderFriend = (props) => {
     return (
         <div className={style.head}>
-
-
-            <h1>{props.massage}</h1>
-
-
+            <h2>{props.massage}</h2>
         </div>
     );
 };
