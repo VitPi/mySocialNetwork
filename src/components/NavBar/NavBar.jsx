@@ -25,20 +25,20 @@ const NavBar = () => {
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to={"/profile"} activeClassName={style.colorLink}><i
-                        className="fab fa-mailchimp fa-15x"> </i>
+                    <NavLink to={"/profile"} activeClassName={style.colorLink}>
+                        <i className="fab fa-mailchimp fa-15x"> </i>
                         <span>Profile</span>
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to={"/friends"} activeClassName={style.colorLink}><i
-                        className="fas fa-user-friends fa-15x"> </i>
+                    <NavLink to={"/friends"} activeClassName={style.colorLink}>
+                        <i className="fas fa-user-friends fa-15x"> </i>
                         <span>Friends</span>
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to={"/setting"} activeClassName={style.colorLink}><i
-                        className="fas fa-cogs  fa-15x"> </i>
+                    <NavLink to={"/setting"} activeClassName={style.colorLink}>
+                        <i className="fas fa-cogs  fa-15x"> </i>
                         <span>Setting</span>
                     </NavLink>
                 </li>

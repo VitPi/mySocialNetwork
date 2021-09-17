@@ -1,23 +1,52 @@
-
-
 /*
 
 
 */
 
 
+.section {
+    width: 48%;
+    margin: 1%;
+    border-radius: 10px;
+    background: #1e2345;
+    position: relative;
+}
 
 
-
-.section{
-    width: 50%;
+.section > img {
+    width: 100%;
+    border-radius: 10px;
 
 }
 
 
+.section figure {
+    margin: 3em 0 3em 0;
+}
+
+.section figure h3 {
+    color: #32aff8;
+    margin: 1em;
+}
 
 
+.section figure > figcaption {
+    margin-left: 14em;
+}
 
+.imgAva {
+    width: 8rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 90px;
+    left: 6%;
+}
+
+
+.button {
+    width: 100px;
+    margin: 0 0 2em 2em;
+}
 
 
 

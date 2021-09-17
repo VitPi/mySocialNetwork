@@ -15,9 +15,8 @@
 
 
 .img {
-    width: 50px;
-    border-radius: 50px;
-    margin-right: 10px;
+    width: 9em;
+    margin-right: 1em;
 }
 
 .block figure {
@@ -26,12 +25,10 @@
     margin: 5px;
 }
 
-.block figure figcaption input {
-    background: #1e2745;
-    outline: none;
-    border: none;
+.block figure figcaption {
+    display: flex;
+    flex-direction: column;
 }
-
 
 .block ul {
     display: flex;
@@ -66,10 +63,25 @@
 }
 
 
+.text {
+    resize: none;
+    width: 30em;
+    height: 5em;
+    padding: 9px;
+    background: #29324f;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #50b5ff;
+
+}
 
 
-
-
+.but {
+    width: 10em;
+    margin: 5% 0 0 50%;
+}
 
 
 

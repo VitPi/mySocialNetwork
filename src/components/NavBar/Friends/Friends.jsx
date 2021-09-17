@@ -11,31 +11,19 @@ import FriendList from "./FriendList/FriendList";
 
 const Friends = (props) => {
 
-
-    // let ws =  ;
-
+    let images = props.friendsPage.friendsList.map(i => <FriendList img={i.img} imgAva={i.imgAva} name={i.name}/>);
 
 
     return (
         <article className={style.block}>
+
 
             <ImgHeaderFriend massage={'Friend Lists'}/>
 
             <main>
 
 
-                <FriendList img={"m"}/>
-
-                {/*<FriendList/>*/}
-
-                {/*<FriendList/>*/}
-
-                {/*<FriendList/>*/}
-
-                {/*<FriendList/>*/}
-
-                {/*<FriendList/>*/}
-
+                {images}
 
             </main>
 

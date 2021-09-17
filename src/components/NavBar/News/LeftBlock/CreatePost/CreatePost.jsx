@@ -4,21 +4,42 @@
 //
 
 
-import cr from './CreatePost.module.css'
+import style from './CreatePost.module.css'
 import img from './img/no1.jpg'
 import img1 from './img/07.png'
 import img2 from './img/08.png'
 import img3 from './img/09.png'
 
-const CreatePost = () => {
+import React from "react";
+
+
+const CreatePost = (props) => {
+
+// console.log( typeof props.addNewPostPage)
+
+    // props.addNewPostPage('asdasdasd')
+
+    let newText = React.createRef();
+
+
+    let la = () => {
+
+        // debugger
+        props.addNewPostPage(newText.current.value);
+        newText.current.value = ' '
+        
+    }
+
+
     return (
-        <article className={cr.block}>
+        <article className={style.block}>
             <h4>Create Post</h4>
             <hr/>
             <figure>
-                <img src={img} alt="icon" className={cr.img}/>
+                <img src={img} alt="icon" className={style.img}/>
                 <figcaption>
-                    <input type="text" placeholder="Write something here..."/>
+                    <textarea className={style.text} ref={newText}> </textarea>
+                    <button className={style.but} onClick={la}>Post</button>
                 </figcaption>
             </figure>
 
@@ -55,6 +76,8 @@ const CreatePost = () => {
                     </div>
                 </li>
             </ul>
+
+
         </article>
     )
 }

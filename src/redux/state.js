@@ -4,32 +4,30 @@
 //
 
 
-// let a = 'img/1.jpg'
 
+import {rerenderEntireTree} from "../render";
 
 let video = <iframe src="https://www.youtube.com/embed/McSTvIqDuso"
                     title="YouTube video player" frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen>
+    </iframe>,
 
-</iframe>;
-
-
-let video2 = <iframe src="https://www.youtube.com/embed/u-R3IQBKb8c"
+    video2 = <iframe src="https://www.youtube.com/embed/u-R3IQBKb8c"
                      title="YouTube video player" frameBorder="0"
                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                      allowFullScreen>
+    </iframe>,
 
-</iframe>;
-
-let video3 = <iframe src="https://www.youtube.com/embed/-CRkc0KJqq8"
+    video3 = <iframe src="https://www.youtube.com/embed/-CRkc0KJqq8"
                      title="YouTube video player" frameBorder="0"
                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                      allowFullScreen>
-</iframe>;
+    </iframe>;
 
 
 let state = {
+
     asidePage: {
         friendOnline: [
             {name: 'Pablo Roberts', say: 'Online', ava: 'img/3.jpg'},
@@ -145,7 +143,8 @@ let state = {
     },
 
     nawBarPage: {
-        chatPage: {
+
+        chatPage: {       // компонента   Chat
 
             generatingMessagesInCat: [
                 {id: 1, message: 'Yo'},
@@ -182,10 +181,9 @@ let state = {
 
             ],
 
-        },
+        },        // компонента   Chat
 
-        newsPage: {
-            leftBlockPAge: {
+        newsPage: {      //   компонента Hews
                 newPostPage: {
                     post: [
                         {
@@ -198,7 +196,8 @@ let state = {
                             img3: '',
                             video: '',
                             like: 1249,
-                            comments: 574
+                            comments: 574,
+                            post: '',
                         },
                         {
                             name: 'Jorge Mitchell',
@@ -287,31 +286,73 @@ let state = {
                             comments: 46
                         },
                     ]
-                },
             },
 
-            storiesBlock: [
+            storiesBlockUsers: [
                 {name: 'Pablo Roberts', say: '1 hour ago', ava: 'img/3.jpg'},
                 {name: 'Paul King', say: '1 day ago', ava: 'img/2.jpg'},
                 {name: 'Yisrael Williams', say: '5 hour ago', ava: 'img/1.jpg'},
                 {name: 'Oscar Long', say: '2 hour ago', ava: 'img/4.jpg'},
-                {name: 'Franco Smith', say: '2 days ago', ava: 'img/5.jpg\\ '},
+                {name: 'Franco Smith', say: '2 days ago', ava: 'img/5.jpg'},
                 {name: 'Tripp Simmons', say: '6 days ago', ava: 'img/6.jpg'},
                 {name: 'Tyrone Barnes', say: '20 hour ago', ava: 'img/7.jpg'},
                 {name: 'Daxton Ward', say: '12 hour ago', ava: 'img/8.jpg'},
             ],
-        },
+        },      //   компонента Hews
 
+        friendsPage: {        //  компонента   Friends
 
-        friendsPage: [
-            {id: 1, img: ''},
-        ],
+            friendsList: [
+                {img: 'img/img/profile-bg1.jpg', imgAva: 'img/1.jpg', name: 'Samson Lee',},
+                {img: 'img/img/profile-bg2.jpg', imgAva: 'img/2.jpg', name: 'Tyrone Barnes',},
+                {img: 'img/img/profile-bg3.jpg', imgAva: 'img/3.jpg', name: 'Gary Walker',},
+                {img: 'img/img/profile-bg4.jpg', imgAva: 'img/4.jpg', name: 'Jorge Mitchell',},
+                {img: 'img/img/profile-bg5.jpg', imgAva: 'img/5.jpg', name: 'Holland Morgan',},
+                {img: 'img/img/profile-bg6.jpg', imgAva: 'img/6.jpg', name: 'Archer Lee',},
+                {img: 'img/img/profile-bg7.jpg', imgAva: 'img/7.jpg', name: 'Pierce Foster',},
+                {img: 'img/img/profile-bg8.jpg', imgAva: 'img/8.jpg', name: 'Conor Turner',},
+                {img: 'img/img/profile-bg1.jpg', imgAva: 'img/9.jpg', name: 'Uthman Alexander',},
+                {img: 'img/img/profile-bg2.jpg', imgAva: 'img/10.jpg', name: 'Matthew Gray',},
+                {img: 'img/img/profile-bg3.jpg', imgAva: 'img/11.jpg', name: 'Jameson Collins',},
+                {img: 'img/img/profile-bg4.jpg', imgAva: 'img/12.jpg', name: 'Nikolas Evans',},
+                {img: 'img/img/profile-bg5.jpg', imgAva: 'img/13.jpg', name: 'Pablo Roberts',},
+                {img: 'img/img/profile-bg6.jpg', imgAva: 'img/2.jpg', name: 'Jorge Mitchell',},
 
+            ],
+
+        },    //  компонента   Friends
 
     },
 
 
 }
+
+
+export let addNewPostPage = (post) => {
+
+    // debugger
+
+    let newPost = {
+        name: 'Uthman Alexander',
+        say: 'Online',
+        ava: 'img/myProf.jpg',
+        oneImg: 'https://st2.depositphotos.com/1064024/10769/i/600/depositphotos_107694484-stock-photo-little-boy.jpg',
+        img1: '',
+        img2: '',
+        img3: '',
+        video: '',
+        like: 0,
+        comments: 0,
+        post: post,
+    };
+
+  state.nawBarPage.newsPage.newPostPage.post.push(newPost);
+        rerenderEntireTree(state);
+
+}
+
+
+
 
 
 export default state;

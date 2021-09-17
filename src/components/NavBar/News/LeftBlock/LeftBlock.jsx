@@ -21,7 +21,8 @@ const LeftBlock = (props) => {
     let post = props.posts.newPostPage.post.map(el => <NewPosts name={el.name} say={el.say} ava={el.ava}
                                                                 oneImg={el.oneImg} img1={el.img1} img2={el.img2}
                                                                 img3={el.img3} video={el.video}
-                                                                like={el.like} comments={el.comments}/>);
+                                                                like={el.like} comments={el.comments} post={el.post}/>);
+
 
 
     //  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -30,7 +31,7 @@ const LeftBlock = (props) => {
     return (
         <div className={left.block}>
 
-            <CreatePost/>
+            <CreatePost addNewPostPage={props.addNewPostPage}/>
 
             {post}
 
