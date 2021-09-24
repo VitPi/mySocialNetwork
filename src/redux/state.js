@@ -4,7 +4,6 @@
 //
 
 
-
 import {rerenderEntireTree} from "../render";
 
 let video = <iframe src="https://www.youtube.com/embed/McSTvIqDuso"
@@ -184,108 +183,109 @@ let state = {
         },        // компонента   Chat
 
         newsPage: {      //   компонента Hews
-                newPostPage: {
-                    post: [
-                        {
-                            name: 'Gary Walker',
-                            say: '2 hour ago',
-                            ava: 'img/9.jpg',
-                            oneImg: 'https://st.depositphotos.com/1760224/3660/i/600/depositphotos_36606389-stock-photo-sport-success-on-sunset-background.jpg',
-                            img1: '',
-                            img2: '',
-                            img3: '',
-                            video: '',
-                            like: 1249,
-                            comments: 574,
-                            post: '',
-                        },
-                        {
-                            name: 'Jorge Mitchell',
-                            say: '5 days ago',
-                            ava: 'img/10.jpg',
-                            oneImg: '',
-                            img1: 'https://www.legnaia.it/image/catalog/olivo%20monumentale%202.jpg',
-                            img2: 'https://www.sticky.digital/wp-content/uploads/2013/11/img-6.jpg',
-                            img3: 'https://investuttarakhand.com/swcs/themes/utrakhand/assets/img/demo/7.jpg',
-                            video: '',
-                            like: 30,
-                            comments: 200
-                        },
-                        {
-                            name: 'Uthman Alexander',
-                            say: '3 hour ago',
-                            ava: 'img/4.jpg',
-                            oneImg: '',
-                            img1: '',
-                            img2: '',
-                            img3: '',
-                            video: video,
-                            like: 740,
-                            comments: 4
-                        },
-                        {
-                            name: 'Matthew Gray',
-                            say: '20 hours ago',
-                            ava: 'img/9.jpg',
-                            oneImg: '',
-                            img1: 'https://i.pinimg.com/originals/59/65/13/596513a55c6ecc2d194344a62228b362.jpg',
-                            img2: 'https://artguide.com/storage/news/6305/regular_detail_picture.jpg',
-                            img3: 'https://jag.in.ua/upload/resize_cache/iblock/fb4/1200_700_1/DSC_1064.jpg',
-                            video: '',
-                            like: 340,
-                            comments: 234
-                        },
-                        {
-                            name: 'Ignace Taylor',
-                            say: '2 days ago',
-                            ava: 'img/13.jpg',
-                            oneImg: '',
-                            img1: '',
-                            img2: '',
-                            img3: '',
-                            video: video2,
-                            like: 40,
-                            comments: 5244
+            newPostPage: {
+                post: [
+                    {
+                        name: 'Gary Walker',
+                        say: '2 hour ago',
+                        ava: 'img/9.jpg',
+                        oneImg: 'https://st.depositphotos.com/1760224/3660/i/600/depositphotos_36606389-stock-photo-sport-success-on-sunset-background.jpg',
+                        img1: '',
+                        img2: '',
+                        img3: '',
+                        video: '',
+                        like: 1249,
+                        comments: 574,
+                        post: '',
+                    },
+                    {
+                        name: 'Jorge Mitchell',
+                        say: '5 days ago',
+                        ava: 'img/10.jpg',
+                        oneImg: '',
+                        img1: 'https://www.legnaia.it/image/catalog/olivo%20monumentale%202.jpg',
+                        img2: 'https://www.sticky.digital/wp-content/uploads/2013/11/img-6.jpg',
+                        img3: 'https://investuttarakhand.com/swcs/themes/utrakhand/assets/img/demo/7.jpg',
+                        video: '',
+                        like: 30,
+                        comments: 200
+                    },
+                    {
+                        name: 'Uthman Alexander',
+                        say: '3 hour ago',
+                        ava: 'img/4.jpg',
+                        oneImg: '',
+                        img1: '',
+                        img2: '',
+                        img3: '',
+                        video: video,
+                        like: 740,
+                        comments: 4
+                    },
+                    {
+                        name: 'Matthew Gray',
+                        say: '20 hours ago',
+                        ava: 'img/9.jpg',
+                        oneImg: '',
+                        img1: 'https://i.pinimg.com/originals/59/65/13/596513a55c6ecc2d194344a62228b362.jpg',
+                        img2: 'https://artguide.com/storage/news/6305/regular_detail_picture.jpg',
+                        img3: 'https://jag.in.ua/upload/resize_cache/iblock/fb4/1200_700_1/DSC_1064.jpg',
+                        video: '',
+                        like: 340,
+                        comments: 234
+                    },
+                    {
+                        name: 'Ignace Taylor',
+                        say: '2 days ago',
+                        ava: 'img/13.jpg',
+                        oneImg: '',
+                        img1: '',
+                        img2: '',
+                        img3: '',
+                        video: video2,
+                        like: 40,
+                        comments: 5244
 
-                        },
-                        {
-                            name: 'Jameson Collins',
-                            say: 'Online',
-                            ava: 'img/6.jpg',
-                            oneImg: 'https://vjoy.cc/wp-content/uploads/2019/07/1-1.jpg',
-                            img1: '',
-                            img2: '',
-                            img3: '',
-                            video: '',
-                            like: 650,
-                            comments: 74
-                        },
-                        {
-                            name: 'Samson Lee',
-                            say: 'Online',
-                            ava: 'img/8.jpg',
-                            oneImg: '',
-                            img1: 'https://klike.net/uploads/posts/2019-01/1547366815_1.jpg',
-                            img2: 'https://bipbap.ru/wp-content/uploads/2017/04/0_7c779_5df17311_orig.jpg',
-                            img3: 'https://dingo.com.ua/source/beach_sea/378.jpg',
-                            video: '',
-                            like: 3560,
-                            comments: 5394
-                        },
-                        {
+                    },
+                    {
+                        name: 'Jameson Collins',
+                        say: 'Online',
+                        ava: 'img/6.jpg',
+                        oneImg: 'https://vjoy.cc/wp-content/uploads/2019/07/1-1.jpg',
+                        img1: '',
+                        img2: '',
+                        img3: '',
+                        video: '',
+                        like: 650,
+                        comments: 74
+                    },
+                    {
+                        name: 'Samson Lee',
+                        say: 'Online',
+                        ava: 'img/8.jpg',
+                        oneImg: '',
+                        img1: 'https://klike.net/uploads/posts/2019-01/1547366815_1.jpg',
+                        img2: 'https://bipbap.ru/wp-content/uploads/2017/04/0_7c779_5df17311_orig.jpg',
+                        img3: 'https://dingo.com.ua/source/beach_sea/378.jpg',
+                        video: '',
+                        like: 3560,
+                        comments: 5394
+                    },
+                    {
 
-                            name: 'Nikolas Evans',
-                            say: 'Online',
-                            ava: 'img/5.jpg',
-                            oneImg: '',
-                            img1: '',
-                            img2: '',
-                            img3: '',
-                            video: video3,
-                            like: 75,
-                            comments: 46
-                        },
-                    ]
+                        name: 'Nikolas Evans',
+                        say: 'Online',
+                        ava: 'img/5.jpg',
+                        oneImg: '',
+                        img1: '',
+                        img2: '',
+                        img3: '',
+                        video: video3,
+                        like: 75,
+                        comments: 46
+                    },
+                ],
+                newText: '',
             },
 
             storiesBlockUsers: [
@@ -328,7 +328,7 @@ let state = {
 }
 
 
-export let addNewPostPage = (post) => {
+export let addNewPostPage = () => {
 
     // debugger
 
@@ -343,16 +343,25 @@ export let addNewPostPage = (post) => {
         video: '',
         like: 0,
         comments: 0,
-        post: post,
+        post: state.nawBarPage.newsPage.newPostPage.newText,
+
     };
 
-  state.nawBarPage.newsPage.newPostPage.post.push(newPost);
-        rerenderEntireTree(state);
+    state.nawBarPage.newsPage.newPostPage.post.push(newPost);
+    state.nawBarPage.newsPage.newPostPage.newText = '';
+
+    rerenderEntireTree(state);
 
 }
 
+window.state = state;
 
+export let updatePostText = (text) => {
 
+    state.nawBarPage.newsPage.newPostPage.newText = text;
+    rerenderEntireTree(state);
+
+}
 
 
 export default state;

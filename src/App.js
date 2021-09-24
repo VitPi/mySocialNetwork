@@ -12,6 +12,7 @@ import Profile from "./components/NavBar/Profile/Profile";
 import Aside from "./components/Aside/Aside";
 import News from "./components/NavBar/News/News";
 import React from './iconsfont/css/all.css'
+import {updatePostText} from "./redux/state";
 
 
 // =========================================================
@@ -30,7 +31,10 @@ const App = (props) => {
 
             <main className='app-wrapper-contend'>
 
-                <Route path='/news' render={() => <News newsPage={props.state.nawBarPage.newsPage} addNewPostPage={props.addNewPostPage}/>}/>
+                <Route path='/news' render={() => <News newsPage={props.state.nawBarPage.newsPage}
+                                                        addNewPostPage={props.addNewPostPage}
+                                                        updatePostText={props.updatePostText}
+                />}/>
 
                 <Route path='/messages' render={() => <Chat chatPage={props.state.nawBarPage.chatPage}/>}/>
 

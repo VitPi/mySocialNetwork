@@ -15,21 +15,16 @@ import React from "react";
 
 const CreatePost = (props) => {
 
-// console.log( typeof props.addNewPostPage)
-
-    // props.addNewPostPage('asdasdasd')
-
     let newText = React.createRef();
 
-
-    let la = () => {
-
-        // debugger
-        props.addNewPostPage(newText.current.value);
-        newText.current.value = ' '
-        
+    function addPost() {
+        props.addNewPostPage();
     }
 
+    let onPOst = () => {
+        let text = newText.current.value;
+        props.updatePostText(text);
+    }
 
     return (
         <article className={style.block}>
@@ -38,8 +33,8 @@ const CreatePost = (props) => {
             <figure>
                 <img src={img} alt="icon" className={style.img}/>
                 <figcaption>
-                    <textarea className={style.text} ref={newText}> </textarea>
-                    <button className={style.but} onClick={la}>Post</button>
+                    <textarea className={style.text} onChange={onPOst} ref={newText} value={props.newText}/>
+                    <button className={style.but} onClick={addPost}>Post</button>
                 </figcaption>
             </figure>
 

@@ -20,7 +20,10 @@ const News = (props) => {
 
     return (
         <div className={n.main}>
-            <LeftBlock posts={props.newsPage} addNewPostPage={props.addNewPostPage}/>
+            <LeftBlock posts={props.newsPage}
+                       addNewPostPage={props.addNewPostPage}
+                       updatePostText={props.updatePostText}
+            />
             <RightBlock friend={props.newsPage.storiesBlockUsers}/>
 
         </div>

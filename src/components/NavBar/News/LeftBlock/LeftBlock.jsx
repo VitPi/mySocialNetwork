@@ -1,13 +1,11 @@
 //
 
 
-//
-
-
 import left from './LeftBlock.module.css'
 import CreatePost from "./CreatePost/CreatePost";
 import NewPosts from "./NewPosts/NewPosts";
 import Figure from "./Figure/Figure";
+import {updatePostText} from "../../../../redux/state";
 
 
 //
@@ -24,14 +22,16 @@ const LeftBlock = (props) => {
                                                                 like={el.like} comments={el.comments} post={el.post}/>);
 
 
-
     //  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
     return (
         <div className={left.block}>
 
-            <CreatePost addNewPostPage={props.addNewPostPage}/>
+            <CreatePost addNewPostPage={props.addNewPostPage}
+                        newText={props.posts.newPostPage.newText}
+                        updatePostText={props.updatePostText}
+            />
 
             {post}
 
